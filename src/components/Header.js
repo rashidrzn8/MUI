@@ -38,7 +38,7 @@ const Header = () => {
       </Toolbar>
       <Divider />
       <Toolbar className={classes.tagline}>
-        Express your emotions through Images
+        Express your emotions through Words
       </Toolbar>
     </>
   );
