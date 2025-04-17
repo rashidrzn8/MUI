@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
   tagline: {
     fontSize: 20, // fixed: use fontSize instead of "font"
     flexGrow: 1,
+    fontFamily: "fantasy",
     justifyContent: "center",
   },
 }));
@@ -24,7 +25,7 @@ const Header = () => {
         <IconButton color="inherit">
           <MenuIcon />
         </IconButton>
-        <Typography className={classes.tagline} variant="h6">
+        <Typography className={classes.title} variant="h6">
           Blogging website
         </Typography>
         <IconButton color="inherit">
